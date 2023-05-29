@@ -1,0 +1,12 @@
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/bin/Debug/net6.0/Layered.Domain.deps.json
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/bin/Debug/net6.0/Layered.Domain.dll
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/bin/Debug/net6.0/Layered.Domain.pdb
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.csproj.AssemblyReference.cache
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.AssemblyInfoInputs.cache
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.AssemblyInfo.cs
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.csproj.CoreCompileInputs.cache
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.dll
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/refint/Layered.Domain.dll
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/Layered.Domain.pdb
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.Domain/obj/Debug/net6.0/ref/Layered.Domain.dll
