@@ -10,3 +10,8 @@
 /Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/obj/Debug/net6.0/refint/Layered.DAL.dll
 /Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/obj/Debug/net6.0/Layered.DAL.pdb
 /Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/obj/Debug/net6.0/ref/Layered.DAL.dll
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/bin/Debug/net6.0/Layered.DAL.runtimeconfig.json
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/bin/Debug/net6.0/Layered.Domain.dll
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/bin/Debug/net6.0/Layered.Domain.pdb
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/obj/Debug/net6.0/Layered.DAL.csproj.CopyComplete
+/Users/mani.bhushan/Projects/Learning/LayedAPI/LayedAPI/Layered.DAL/obj/Debug/net6.0/Layered.DAL.genruntimeconfig.cache
