@@ -1,36 +1,46 @@
+using Layered.DAL.Context;
 using Layered.Domain.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Layered.DAL.Implementation{
-    public class GenericRepository : IGenericRepository<T> where T : class
+namespace Layered.DAL.Implementation
+{
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
+        private readonly MovieDbContext _context;
+        public GenericRepository(MovieDbContext context) => _context = context;
+
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+              _context.Set<T>().Add(entity);
         }
 
         public IEnumerable<T> Find(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+            return _context.Set<T>().Where(predicate);
         }
 
         public IEnumerable<T> GetAll()
         {
-            throw new NotImplementedException();
+           return _context.Set<T>().ToList();
         }
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Set<T>().Find(id);
         }
 
         public void Remove(T entity)
         {
-            throw new NotImplementedException();
+             _context.Set<T>().Remove(entity);
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Update(entity);
         }
     }
 }
