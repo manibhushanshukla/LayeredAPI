@@ -13,19 +13,19 @@ namespace Layered.DAL.Implementation
         public UnitOfWork(MovieDbContext context)
         {
             _context = context;
-            ActorRepository = new ActorRepository(_context);
-            BiographyRepository = new BiographyRepository(_context);
-            GenreRepository = new GenreRepository(_context);
-            MovieRepository = new MovieRepository(_context);
+            Actor = new ActorRepository(_context);
+            Biography = new BiographyRepository(_context);
+            Genre = new GenreRepository(_context);
+            Movie = new MovieRepository(_context);
         }
 
-        public IActorRepository ActorRepository { get; private set; }
+        public IActorRepository Actor { get; private set; }
 
-        public IBiographyRepository BiographyRepository { get; private set; }
+        public IBiographyRepository Biography { get; private set; }
 
-        public IGenreRepository GenreRepository { get; private set; }
+        public IGenreRepository Genre { get; private set; }
 
-        public IMovieRepository MovieRepository { get; private set; }
+        public IMovieRepository Movie { get; private set; }
 
         public void Dispose()
         {
