@@ -5,7 +5,7 @@ namespace Layered.DAL.Implementation
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly MovieDbContext _context;
+        public readonly MovieDbContext _context;
         public GenericRepository(MovieDbContext context) => _context = context;
 
         public void Add(T entity)
